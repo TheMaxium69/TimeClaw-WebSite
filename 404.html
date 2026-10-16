@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="fr" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>404 — Page Introuvable | TimeClaw</title>
+  <meta name="description" content="Oups ! Cette page semble s'être perdue dans les failles du temps. Retournez à l'accueil du studio TimeClaw." />
+  <meta name="robots" content="noindex, follow" />
+  <meta name="theme-color" content="#eceff3" />
+
+  <link rel="icon" type="image/png" href="./assets/Logo.png" />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet" />
+
+  <!-- RemixIcon -->
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
+
+  <link rel="stylesheet" href="./css/style.css" />
+</head>
+<body class="error-page-body">
+  <div class="ambient-glow ambient-glow--top" aria-hidden="true"></div>
+  <div class="ambient-glow ambient-glow--mid" aria-hidden="true"></div>
+
+  <!-- ═══════════ NAVIGATION ═══════════ -->
+  <header class="navbar" id="top">
+    <div class="container navbar__inner">
+      <a href="./index.html" class="navbar__brand" aria-label="TimeClaw - Retour à l'accueil">
+        <img src="./assets/Logo.png" alt="Logo TimeClaw" class="navbar__logo" width="42" height="42" />
+        <div class="navbar__brand-text">
+          <span class="navbar__title">TIME<span>CLAW</span></span>
+          <span class="navbar__subtitle">INDIE GAME STUDIO</span>
+        </div>
+      </a>
+
+      <nav class="navbar__nav" id="nav-menu" aria-label="Navigation principale">
+        <a href="/index.html#studio" class="navbar__link">Le Studio</a>
+        <a href="/index.html#jeux" class="navbar__link">Les Jeux</a>
+        <a href="/index.html#createur" class="navbar__link">Le Créateur</a>
+        <a href="/index.html#contact" class="navbar__link">Contact</a>
+      </nav>
+
+      <div class="navbar__actions">
+        <a href="/index.html" class="btn btn--primary btn--sm">← Retour à l'accueil</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- ═══════════ CONTENU 404 ═══════════ -->
+  <main class="error-section">
+    <div class="container">
+      <div class="error-card">
+        <div class="error-card__visual">
+          <img src="./assets/Logo.png" alt="Logo TimeClaw" class="error-card__logo" width="110" height="110" />
+          <div class="error-card__code">404</div>
+        </div>
+
+        <span class="section__eyebrow">FAILLE TEMPORELLE DÉTECTÉE</span>
+        <h1 class="error-card__title">Cette page s'est perdue dans le temps.</h1>
+        <p class="error-card__desc">
+          On dirait que vous avez exploré une zone hors de la carte ! Le lien que vous avez suivi n'existe plus ou a été déplacé sur <strong>timeclaw.fr</strong>.
+        </p>
+
+        <div class="error-card__actions">
+          <a href="/index.html" class="btn btn--primary">
+            <i class="ri-home-4-line" aria-hidden="true"></i>
+            <span>Retourner à l'accueil</span>
+          </a>
+          <a href="/index.html#jeux" class="btn btn--ghost">
+            <i class="ri-gamepad-line" aria-hidden="true"></i>
+            <span>Voir les jeux</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- ═══════════ FOOTER ═══════════ -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__bottom">
+        <p class="footer__copy">
+          © <span id="current-year">2026</span> <strong>TimeClaw</strong> (Mathys Lacoque) - <a href="https://timeclaw.fr">timeclaw.fr</a>
+        </p>
+        <div class="footer__socials footer__socials--inline" aria-label="Réseaux sociaux TimeClaw">
+          <a href="https://www.tiktok.com/" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="TikTok TimeClaw" title="TikTok">
+            <i class="ri-tiktok-fill" aria-hidden="true"></i>
+          </a>
+          <a href="https://x.com/" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="X (Twitter) TimeClaw" title="X (Twitter)">
+            <i class="ri-twitter-x-line" aria-hidden="true"></i>
+          </a>
+        </div>
+        <p class="footer__credits">
+          Développé par <a href="https://tyrolium.fr" target="_blank" rel="noopener noreferrer">Tyrolium</a> • Hébergé par <a href="https://solidserv.fr" target="_blank" rel="noopener noreferrer">SolidServ</a>
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="/js/main.js"></script>
+</body>
+</html>

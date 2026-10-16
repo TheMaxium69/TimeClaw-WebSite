@@ -1,0 +1,16 @@
+# ═══════════════════════════════════════════════════════════════════════════
+# TIMECLAW (https://timeclaw.fr) — Configuration Apache (.htaccess)
+# Hébergé par SolidServ (Filiale de Tyrolium)
+# ═══════════════════════════════════════════════════════════════════════════
+
+# 1. Page d'erreur 404 personnalisée
+ErrorDocument 404 /404.html
+
+# 2. Empêcher le listage des répertoires
+Options -Indexes
+
+# 3. Fichier d'index par défaut
+DirectoryIndex index.html
+
+# 4. Encodage par défaut
+AddDefaultCharset UTF-8
