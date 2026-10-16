@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="fr" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TimeClaw - Studio de Jeux Vidéo Indépendant</title>
+  <meta name="description" content="TimeClaw est un studio de jeux vidéo indépendant fondé par Mathys Lacoque. Découvrez RhodoTales (en collaboration avec TyroCiel) et Rock With Zombies." />
+  <meta name="keywords" content="TimeClaw, Mathys Lacoque, studio jeu vidéo, indie game, RhodoTales, Rock With Zombies, TyroCiel, Tyrolium, jeu indépendant français" />
+  <meta name="author" content="Tyrolium" />
+  <meta name="robots" content="index, follow" />
+  <meta name="theme-color" content="#eceff3" />
+
+  <!-- Open Graph / Social -->
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="TimeClaw" />
+  <meta property="og:title" content="TimeClaw - Studio de Jeux Vidéo Indépendant" />
+  <meta property="og:description" content="Un studio fondé par une seule personne avec un objectif simple : offrir une expérience unique de jeu grâce à la passion de son créateur." />
+  <meta property="og:image" content="assets/Logo.png" />
+  <meta property="og:locale" content="fr_FR" />
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="assets/Logo.png" />
+
+  <!-- Google Fonts: Space Grotesk, Plus Jakarta Sans & JetBrains Mono -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet" />
+
+  <!-- RemixIcon -->
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
+
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <!-- Ambient Background Accents -->
+  <div class="ambient-glow ambient-glow--top" aria-hidden="true"></div>
+  <div class="ambient-glow ambient-glow--mid" aria-hidden="true"></div>
+
+  <!-- ═══════════ NAVIGATION ═══════════ -->
+  <header class="navbar" id="top">
+    <div class="container navbar__inner">
+      <a href="#top" class="navbar__brand" aria-label="TimeClaw - Retour à l'accueil">
+        <img src="assets/Logo.png" alt="Logo TimeClaw" class="navbar__logo" width="42" height="42" fetchpriority="high" />
+        <div class="navbar__brand-text">
+          <span class="navbar__title">TIME<span>CLAW</span></span>
+          <span class="navbar__subtitle">INDIE GAME STUDIO</span>
+        </div>
+      </a>
+
+      <nav class="navbar__nav" id="nav-menu" aria-label="Navigation principale">
+        <a href="#studio" class="navbar__link">Le Studio</a>
+        <a href="#jeux" class="navbar__link">Les Jeux</a>
+        <a href="#createur" class="navbar__link">Le Créateur</a>
+        <a href="#contact" class="navbar__link">Contact</a>
+      </nav>
+
+      <div class="navbar__actions">
+        <a href="#contact" class="btn btn--primary btn--sm">Me contacter</a>
+        <button class="navbar__burger" id="burger-btn" aria-label="Ouvrir le menu" aria-expanded="false" aria-controls="nav-menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- ═══════════ PARTIE 1 : HERO / HEADER STYLÉ AVEC LOGO ═══════════ -->
+    <section class="hero">
+      <div class="container hero__grid">
+        <div class="hero__content reveal">
+          <div class="badge">
+            <span class="badge__dot"></span>
+            <span>Studio Indépendant • Fondé par Mathys Lacoque</span>
+          </div>
+
+          <h1 class="hero__title">
+            Forger le temps,<br />
+            <span class="text-gradient">marquer les esprits.</span>
+          </h1>
+
+          <p class="hero__lead">
+            <strong>TimeClaw</strong> est un tout nouveau studio fondé par une seule personne, qui a pour but d'offrir une expérience unique de jeu grâce à la passion de son créateur.
+          </p>
+
+          <p class="hero__sub">
+            Pas d'usine à gaz ni de discours corporate : ici, chaque mécanique, chaque ligne de code et chaque détail sont pensés avec la rigueur d'un studio professionnel et la liberté totale de l'indépendant.
+          </p>
+
+          <div class="hero__cta">
+            <a href="#jeux" class="btn btn--primary">
+              <span>Découvrir les jeux</span>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+            </a>
+            <a href="#createur" class="btn btn--ghost">L'histoire du studio</a>
+          </div>
+
+          <div class="hero__metrics">
+            <div class="metric">
+              <span class="metric__value">100%</span>
+              <span class="metric__label">Esprit Indé & Authentique</span>
+            </div>
+            <div class="metric__divider" aria-hidden="true"></div>
+            <div class="metric">
+              <span class="metric__value">2</span>
+              <span class="metric__label">Projets en développement</span>
+            </div>
+            <div class="metric__divider" aria-hidden="true"></div>
+            <div class="metric">
+              <span class="metric__value">1</span>
+              <span class="metric__label">Créateur passionné</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero__visual reveal">
+          <div class="logo-showcase">
+            <div class="logo-showcase__ring logo-showcase__ring--outer" aria-hidden="true"></div>
+            <div class="logo-showcase__ring logo-showcase__ring--inner" aria-hidden="true"></div>
+            <div class="logo-showcase__card">
+              <img src="assets/Logo.png" alt="Emblème TimeClaw - Sablier et Griffes" class="logo-showcase__img" width="380" height="360" fetchpriority="high" />
+              <div class="logo-showcase__tag">
+                <span class="mono">PAR MATHYS LACOQUE</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════ PARTIE 2 : À PROPOS DU STUDIO ═══════════ -->
+    <section class="section" id="studio">
+      <div class="container">
+        <div class="section__header reveal">
+          <span class="section__eyebrow">01 // À PROPOS DU STUDIO</span>
+          <h2 class="section__title">La crédibilité d'un studio,<br />l'âme d'un créateur solo.</h2>
+          <p class="section__desc">
+            TimeClaw est né d'un constat simple : les meilleurs jeux vidéo sont ceux où l'on ressent directement la patte, l'envie et la sincérité de celui qui les fabrique.
+          </p>
+        </div>
+
+        <div class="studio-banner reveal">
+          <div class="studio-banner__quote">
+            <svg class="studio-banner__icon" width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" aria-hidden="true">
+              <path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/>
+            </svg>
+            <blockquote>
+              « TimeClaw est un tout nouveau studio fondé par une seule personne qui a pour but d'offrir une expérience unique de jeu grâce à la passion de son créateur. »
+            </blockquote>
+          </div>
+          <div class="studio-banner__meta">
+            <span>Structure officielle</span>
+            <strong>SIRET : 106 536 972 00016</strong>
+          </div>
+        </div>
+
+        <div class="pillars-grid">
+          <article class="pillar-card reveal">
+            <div class="pillar-card__icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            </div>
+            <h3 class="pillar-card__title">Vision sans compromis</h3>
+            <p class="pillar-card__text">
+              Être seul à la barre de TimeClaw, c'est assumer pleinement chaque choix de game design. Pas de comité marketing pour lisser les idées : l'objectif est de créer des jeux qui ont du caractère.
+            </p>
+          </article>
+
+          <article class="pillar-card reveal">
+            <div class="pillar-card__icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+            </div>
+            <h3 class="pillar-card__title">Exigence & Crédibilité</h3>
+            <p class="pillar-card__text">
+              Assumer son côté « un gars passionné » n'empêche pas une rigueur totale. Du code propre à la direction de projet, TimeClaw s'appuie sur des méthodes professionnelles pour livrer des expériences solides.
+            </p>
+          </article>
+
+          <article class="pillar-card reveal">
+            <div class="pillar-card__icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+            </div>
+            <h3 class="pillar-card__title">Création & Collaboration</h3>
+            <p class="pillar-card__text">
+              En parallèle de ses propres créations originales, TimeClaw s'investit à 100 % en tant que studio partenaire dans des projets ambitieux, notamment aux côtés de <a href="https://tyrociel.fr" target="_blank" rel="noopener noreferrer" class="inline-link">TyroCiel</a>.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════ PARTIE 3 : LES 2 JEUX ═══════════ -->
+    <section class="section section--alt" id="jeux">
+      <div class="container">
+        <div class="section__header reveal">
+          <span class="section__eyebrow">02 // CATALOGUE & PROJETS</span>
+          <h2 class="section__title">Les Jeux</h2>
+          <p class="section__desc">
+            Deux univers bien distincts où s'expriment le savoir-faire technique et la direction créative de TimeClaw.
+          </p>
+        </div>
+
+        <div class="games-list">
+          <!-- JEU 1 : RhodoTales -->
+          <article class="game-card game-card--collab reveal">
+            <div class="game-card__visual game-card__visual--rhodotales">
+              <div class="game-card__collab-ribbon">
+                <img src="assets/part/TyroCiel.png" alt="Logo TyroCiel" width="24" height="24" />
+                <span>Projet de <strong>TyroCiel</strong> • Co-développé & co-réalisé par <strong>TimeClaw</strong></span>
+              </div>
+
+              <div class="game-art game-art--rhodo" aria-hidden="true">
+                <div class="rhodo-planes">
+                  <div class="rhodo-plane rhodo-plane--back"><span>PLAN III // PROFONDEUR</span></div>
+                  <div class="rhodo-plane rhodo-plane--mid"><span>PLAN II // MÉDIÉVAL FANTASTIQUE</span></div>
+                  <div class="rhodo-plane rhodo-plane--front"><span>PLAN I // ACTION HD-2D</span></div>
+                </div>
+                <div class="game-art__watermark">RHODOTALES</div>
+              </div>
+
+              <div class="game-card__tags">
+                <span class="tag">Plateformer HD-2D</span>
+                <span class="tag">Médiéval-Fantastique</span>
+                <span class="tag">Gameplay 3 Plans</span>
+              </div>
+            </div>
+
+            <div class="game-card__body">
+              <div class="game-card__meta">
+                <span class="game-card__badge game-card__badge--collab">Collaboration Officielle</span>
+                <span class="game-card__status">En développement actif</span>
+              </div>
+
+              <h3 class="game-card__title">RhodoTales</h3>
+
+              <div class="collab-notice">
+                <img src="assets/part/TyroCiel.png" alt="TyroCiel" class="collab-notice__logo" width="36" height="36" />
+                <p>
+                  <strong>Projet signé <a href="https://tyrociel.fr" target="_blank" rel="noopener noreferrer">TyroCiel</a> :</strong> Il s'agit d'un projet original du studio de jeux vidéo TyroCiel (filiale de <a href="https://tyrolium.fr" target="_blank" rel="noopener noreferrer">Tyrolium</a>), sur lequel <strong>TimeClaw</strong> intervient comme collaborateur majeur, autant dans le <strong>développement</strong> que dans la <strong>réalisation</strong>.
+                </p>
+              </div>
+
+              <p class="game-card__description">
+                Plongez dans un monde médiéval-fantastique façonné en <strong>HD-2D</strong>. <em>RhodoTales</em> est un jeu de plateforme exigeant et immersif qui repose sur une mécanique signature : le basculement dynamique entre <strong>3 plans distincts</strong> pour résoudre des énigmes environnementales, esquiver les pièges et affronter vos ennemis sous une nouvelle perspective.
+              </p>
+
+              <ul class="game-card__highlights">
+                <li>
+                  <strong>Rôle de TimeClaw :</strong> Direction de jeu (Game Direction), architecture gameplay et réalisation technique main dans la main avec l'équipe TyroCiel.
+                </li>
+                <li>
+                  <strong>Direction artistique :</strong> Contraste saisissant entre le charme du pixel art traditionnel et les effets de lumière et de profondeur modernes.
+                </li>
+              </ul>
+
+              <div class="game-card__footer">
+                <a href="https://tyrociel.fr" target="_blank" rel="noopener noreferrer" class="btn btn--outline">
+                  <span>Voir le studio TyroCiel</span>
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- JEU 2 : Rock With Zombies -->
+          <article class="game-card game-card--original reveal">
+            <div class="game-card__visual game-card__visual--rwz">
+              <div class="game-card__collab-ribbon game-card__collab-ribbon--self">
+                <img src="assets/Logo.png" alt="Logo TimeClaw" width="22" height="22" />
+                <span>Création Originale <strong>TimeClaw</strong> • Développé en solo</span>
+              </div>
+
+              <div class="game-art game-art--rwz" aria-hidden="true">
+                <div class="rwz-equalizer">
+                  <span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span>
+                </div>
+                <div class="rwz-emblem">
+                  <svg width="56" height="56" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M9 18V5l12-2v13"/>
+                    <circle cx="6" cy="18" r="3"/>
+                    <circle cx="18" cy="16" r="3"/>
+                  </svg>
+                </div>
+                <div class="game-art__watermark">ROCK WITH ZOMBIES</div>
+              </div>
+
+              <div class="game-card__tags">
+                <span class="tag">Action / Survie</span>
+                <span class="tag">Ambiance Rock & Arcade</span>
+                <span class="tag">Hordes de Zombies</span>
+              </div>
+            </div>
+
+            <div class="game-card__body">
+              <div class="game-card__meta">
+                <span class="game-card__badge">Projet Original TimeClaw</span>
+                <span class="game-card__status">ADN 100% Indé</span>
+              </div>
+
+              <h3 class="game-card__title">Rock With Zombies</h3>
+
+              <p class="game-card__description">
+                Quand l'apocalypse zombie rencontre l'énergie brute du rock ! <em>Rock With Zombies</em> est un concentré d'action décomplexé et nerveux où le fun est roi. Survivez à des vagues incessantes de morts-vivants au rythme de riffs survoltés, enchaînez les combos dévastateurs et transformez le chaos ambiant en véritable scène de concert explosive.
+              </p>
+
+              <p class="game-card__description">
+                Pensé comme un défouloir authentique et sans prise de tête, ce projet incarne parfaitement l'esprit de <strong>TimeClaw</strong> : un jeu direct, généreux en sensations, conçu par un passionné pour les joueurs qui aiment l'action pure et l'énergie arcade.
+              </p>
+
+              <ul class="game-card__highlights">
+                <li>
+                  <strong>Action survoltée :</strong> Gameplay nerveux axé sur le rythme, le mouvement constant et la satisfaction immédiate manette ou clavier en main.
+                </li>
+                <li>
+                  <strong>Identité forte :</strong> Une direction sonore et visuelle survitaminée qui assume pleinement son côté rock'n'roll face à la horde.
+                </li>
+              </ul>
+
+              <div class="game-card__footer">
+                <a href="#contact" class="btn btn--outline">
+                  <span>Suivre l'avancement du jeu</span>
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+                </a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════ PARTIE 4 : MATHYS LACOQUE (PARCOURS & HISTOIRE) ═══════════ -->
+    <section class="section" id="createur">
+      <div class="container">
+        <div class="founder-wrapper reveal">
+          <div class="founder-photo-col">
+            <div class="founder-frame">
+              <div class="founder-frame__accent" aria-hidden="true"></div>
+              <img src="assets/people/Mathys_Lacoque.jpg" alt="Mathys Lacoque - Fondateur et Développeur de TimeClaw" class="founder-frame__img" width="520" height="520" loading="lazy" />
+              <div class="founder-frame__badge">
+                <span class="founder-frame__name">Mathys Lacoque</span>
+                <span class="founder-frame__role">22 ans • Fondateur & Développeur</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="founder-bio-col">
+            <span class="section__eyebrow">03 // DERRIÈRE TIMECLAW</span>
+            <h2 class="section__title">Un passionné de jeux vidéo qui a décidé d'en créer.</h2>
+
+            <div class="founder-bio__text">
+              <p class="founder-bio__lead">
+                Je m'appelle <strong>Mathys Lacoque</strong>, j'ai 22 ans et je suis le développeur derrière <strong>TimeClaw</strong>.
+              </p>
+
+              <p>
+                Depuis tout petit, le jeu vidéo est bien plus qu'un simple passe-temps pour moi : c'est une véritable passion. Après avoir passé des milliers d'heures à explorer des univers, analyser ce qui rend un gameplay accrocheur et comprendre comment les jeux nous marquent, une évidence s'est imposée : <strong>maintenant, je veux créer les miens.</strong>
+              </p>
+
+              <p>
+                Je me suis formé au développement avec l'envie de maîtriser toutes les facettes de la création. Aujourd'hui, j'exerce en tant que <em>Game Director & Développeur</em> sur des projets ambitieux comme <strong>RhodoTales</strong> aux côtés de l'équipe de <a href="https://tyrociel.fr" target="_blank" rel="noopener noreferrer" class="inline-link">TyroCiel</a>, tout en lançant mon propre studio indépendant : <strong>TimeClaw</strong>.
+              </p>
+
+              <p>
+                Ici, on ne se cache pas derrière une fausse multinationale : TimeClaw, c'est avant tout un gars passionné qui met toute son énergie, sa rigueur technique et ses idées au service des joueurs. Une structure sérieuse et professionnelle, mais avec la liberté et la proximité du vrai jeu indé.
+              </p>
+            </div>
+
+            <div class="founder-timeline">
+              <div class="timeline-item">
+                <span class="timeline-item__tag">Les Origines</span>
+                <p class="timeline-item__desc">Joueur passionné depuis l'enfance, curieux de comprendre l'envers du décor et les mécaniques de jeu.</p>
+              </div>
+              <div class="timeline-item">
+                <span class="timeline-item__tag">Le Déclic Technique</span>
+                <p class="timeline-item__desc">Apprentissage intensif du code, des moteurs de jeu et de la réalisation - devenir Game Director & Développeur.</p>
+              </div>
+              <div class="timeline-item">
+                <span class="timeline-item__tag">Aujourd'hui (22 ans)</span>
+                <p class="timeline-item__desc">Lancement officiel de <strong>TimeClaw</strong> et co-réalisation de <em>RhodoTales</em> avec TyroCiel.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════ PARTIE 5 : FORMULAIRE DE CONTACT ═══════════ -->
+    <section class="section section--alt" id="contact">
+      <div class="container">
+        <div class="contact-wrapper reveal">
+          <div class="contact-info">
+            <span class="section__eyebrow">04 // CONTACT</span>
+            <h2 class="section__title">Discutons de jeux, de projets ou de collab'.</h2>
+            <p class="contact-info__desc">
+              Une question sur <strong>RhodoTales</strong> ou <strong>Rock With Zombies</strong> ? Une proposition de partenariat, un retour de joueur ou simplement envie d'échanger avec Mathys ? Envoyez un message directement via ce formulaire.
+            </p>
+
+            <div class="contact-cards">
+              <div class="contact-mini-card">
+                <div class="contact-mini-card__icon">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+                </div>
+                <div>
+                  <span class="contact-mini-card__label">Interlocuteur direct</span>
+                  <strong class="contact-mini-card__value">Mathys Lacoque - Fondateur</strong>
+                </div>
+              </div>
+
+              <div class="contact-mini-card">
+                <div class="contact-mini-card__icon">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="7" width="20" height="14" rx="2" ry="2"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/></svg>
+                </div>
+                <div>
+                  <span class="contact-mini-card__label">Identifiant SIRET</span>
+                  <strong class="contact-mini-card__value mono">10653697200016</strong>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="contact-form-card">
+            <form action="https://formspree.io/f/xzedyyly" method="POST" class="contact-form" id="contact-form">
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="name" class="form-label">Votre nom / pseudo</label>
+                  <input type="text" id="name" name="name" class="form-input" placeholder="Ex : Alex" required autocomplete="name" />
+                </div>
+
+                <div class="form-group">
+                  <label for="email" class="form-label">Votre adresse e-mail</label>
+                  <input type="email" id="email" name="email" class="form-input" placeholder="vous@exemple.fr" required autocomplete="email" />
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="subject" class="form-label">Sujet du message</label>
+                <select id="subject" name="subject" class="form-input form-select" required>
+                  <option value="" disabled selected>Choisir un sujet…</option>
+                  <option value="Question sur les jeux (RhodoTales / Rock With Zombies)">Question sur les jeux (RhodoTales / Rock With Zombies)</option>
+                  <option value="Proposition de collaboration / Projet pro">Proposition de collaboration / Projet pro</option>
+                  <option value="Presse / Créateur de contenu">Presse / Créateur de contenu</option>
+                  <option value="Autre message pour Mathys">Autre message pour Mathys</option>
+                </select>
+              </div>
+
+              <div class="form-group">
+                <label for="message" class="form-label">Votre message</label>
+                <textarea id="message" name="message" rows="5" class="form-input form-textarea" placeholder="Bonjour Mathys, je te contacte à propos de..." required></textarea>
+              </div>
+
+              <button type="submit" class="btn btn--primary btn--full" id="submit-btn">
+                <span>Envoyer le message</span>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+              </button>
+
+              <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ═══════════ FOOTER ═══════════ -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__top">
+        <div class="footer__brand">
+          <a href="#top" class="navbar__brand">
+            <img src="assets/Logo.png" alt="Logo TimeClaw" class="navbar__logo" width="38" height="38" loading="lazy" />
+            <div class="navbar__brand-text">
+              <span class="navbar__title">TIME<span>CLAW</span></span>
+              <span class="navbar__subtitle">STUDIO DE JEUX VIDÉO</span>
+            </div>
+          </a>
+          <p class="footer__tagline">
+            Studio de jeux vidéo indépendant fondé par Mathys Lacoque. Offrir une expérience unique de jeu grâce à la passion de son créateur.
+          </p>
+          <p class="footer__siret mono">SIRET : 10653697200016</p>
+          <div class="footer__socials" aria-label="Réseaux sociaux TimeClaw">
+            <a href="https://www.tiktok.com/" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="TikTok TimeClaw" title="TikTok">
+              <i class="ri-tiktok-fill" aria-hidden="true"></i>
+            </a>
+            <a href="https://x.com/" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="X (Twitter) TimeClaw" title="X (Twitter)">
+              <i class="ri-twitter-x-line" aria-hidden="true"></i>
+            </a>
+          </div>
+        </div>
+
+        <div class="footer__col">
+          <h3 class="footer__heading">Navigation</h3>
+          <ul class="footer__links">
+            <li><a href="#top">Accueil</a></li>
+            <li><a href="#studio">À propos du studio</a></li>
+            <li><a href="#jeux">Les Jeux</a></li>
+            <li><a href="#createur">Mathys Lacoque</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="footer__col">
+          <h3 class="footer__heading">Informations Légales</h3>
+          <ul class="footer__links">
+            <li><a href="mentions-legales.html">Mentions Légales</a></li>
+            <li><a href="mentions-legales.html#hebergement">Hébergement SolidServ</a></li>
+            <li><a href="mentions-legales.html#propriete">Propriété Intellectuelle</a></li>
+            <li><a href="mentions-legales.html#donnees">Données & Confidentialité</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer__bottom">
+        <p class="footer__copy">
+          © <span id="current-year">2026</span> <strong>TimeClaw</strong> (Mathys Lacoque). Tous droits réservés.
+        </p>
+        <p class="footer__credits">
+          Site développé par <a href="https://tyrolium.fr" target="_blank" rel="noopener noreferrer">Tyrolium</a> • Hébergé par <a href="https://solidserv.fr" target="_blank" rel="noopener noreferrer">SolidServ</a>
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
