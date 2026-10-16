@@ -235,6 +235,10 @@ ul {
   gap: 0.75rem;
 }
 
+.btn.navbar__cta--mobile {
+  display: none;
+}
+
 .navbar__burger {
   display: none;
   flex-direction: column;
@@ -1664,6 +1668,16 @@ ul {
     display: flex;
   }
 
+  .btn.navbar__cta--desktop {
+    display: none;
+  }
+
+  .btn.navbar__cta--mobile {
+    display: inline-flex;
+    width: 100%;
+    margin-top: 0.35rem;
+  }
+
   .navbar__nav {
     position: absolute;
     top: 78px;
@@ -1672,6 +1686,8 @@ ul {
     background: var(--bg-card-solid);
     border-bottom: 1px solid var(--border-strong);
     flex-direction: column;
+    align-items: stretch;
+    text-align: center;
     padding: 1.25rem 1.5rem;
     gap: 1rem;
     box-shadow: var(--shadow-md);
