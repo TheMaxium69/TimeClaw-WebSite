@@ -774,6 +774,7 @@ ul {
   white-space: nowrap;
   pointer-events: none;
   user-select: none;
+  text-align: center;
 }
 
 /* RhodoTales 3-planes illustration */
