@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Mentions Légales - TimeClaw Studio</title>
+  <title data-i18n="legal.meta_title">Mentions Légales - TimeClaw Studio</title>
   <meta name="description" content="Mentions légales, informations d'édition, de développement (Tyrolium) et d'hébergement (SolidServ) du site officiel TimeClaw." />
   <meta name="author" content="Tyrolium" />
   <meta name="robots" content="index, follow" />
@@ -32,20 +32,20 @@
         <img src="assets/Logo.png" alt="Logo TimeClaw" class="navbar__logo" width="42" height="42" />
         <div class="navbar__brand-text">
           <span class="navbar__title">TIME<span>CLAW</span></span>
-          <span class="navbar__subtitle">INDIE GAME STUDIO</span>
+          <span class="navbar__subtitle" data-i18n="nav.subtitle">INDIE GAME STUDIO</span>
         </div>
       </a>
 
       <nav class="navbar__nav" id="nav-menu" aria-label="Navigation principale">
-        <a href="index.html#studio" class="navbar__link">Le Studio</a>
-        <a href="index.html#jeux" class="navbar__link">Les Jeux</a>
-        <a href="index.html#createur" class="navbar__link">Le Créateur</a>
-        <a href="index.html#contact" class="navbar__link">Contact</a>
-        <a href="index.html" class="btn btn--ghost btn--sm navbar__cta--mobile">← Retour au site</a>
+        <a href="index.html#studio" class="navbar__link" data-i18n="nav.studio">Le Studio</a>
+        <a href="index.html#jeux" class="navbar__link" data-i18n="nav.games">Les Jeux</a>
+        <a href="index.html#createur" class="navbar__link" data-i18n="nav.founder">Le Créateur</a>
+        <a href="index.html#contact" class="navbar__link" data-i18n="nav.contact">Contact</a>
+        <a href="index.html" class="btn btn--ghost btn--sm navbar__cta--mobile" data-i18n="legal.nav_back">← Retour au site</a>
       </nav>
 
       <div class="navbar__actions">
-        <a href="index.html" class="btn btn--ghost btn--sm navbar__cta--desktop">← Retour au site</a>
+        <a href="index.html" class="btn btn--ghost btn--sm navbar__cta--desktop" data-i18n="legal.nav_back">← Retour au site</a>
         <button class="navbar__burger" id="burger-btn" aria-label="Ouvrir le menu" aria-expanded="false" aria-controls="nav-menu">
           <span></span>
           <span></span>
@@ -58,9 +58,9 @@
   <main class="legal-page">
     <div class="container">
       <div class="legal-header">
-        <span class="section__eyebrow">INFORMATIONS OFFICIELLES</span>
-        <h1 class="section__title">Mentions Légales & Crédits</h1>
-        <p class="section__desc">
+        <span class="section__eyebrow" data-i18n="legal.eyebrow">INFORMATIONS OFFICIELLES</span>
+        <h1 class="section__title" data-i18n="legal.title">Mentions Légales & Crédits</h1>
+        <p class="section__desc" data-i18n-html="legal.desc">
           Conformément aux dispositions de la loi n° 2004-575 du 21 juin 2004 pour la confiance en l'économie numérique (LCEN), voici les informations légales relatives au site officiel de <strong>TimeClaw</strong>.
         </p>
       </div>
@@ -71,19 +71,19 @@
           <div class="legal-card__header">
             <img src="assets/Logo.png" alt="Logo TimeClaw" width="40" height="40" />
             <div>
-              <span class="legal-card__step">01 // ÉDITEUR DU SITE</span>
-              <h2 class="legal-card__title">Studio TimeClaw</h2>
+              <span class="legal-card__step" data-i18n="legal.c1_step">01 // ÉDITEUR DU SITE</span>
+              <h2 class="legal-card__title" data-i18n="legal.c1_title">Studio TimeClaw</h2>
             </div>
           </div>
           <div class="legal-card__body">
-            <p>
+            <p data-i18n-html="legal.c1_p">
               Le présent site web est édité par <strong>TimeClaw</strong>, studio de création et de développement de jeux vidéo indépendant.
             </p>
             <ul class="legal-list">
-              <li><strong>Fondateur & Directeur de la publication :</strong> Mathys Lacoque</li>
-              <li><strong>Numéro de SIRET :</strong> <span class="mono">10653697200016</span></li>
-              <li><strong>Activité :</strong> Développement, conception et réalisation de jeux vidéo</li>
-              <li><strong>Contact :</strong> Via le <a href="index.html#contact" class="inline-link">formulaire de contact officiel</a> du site</li>
+              <li data-i18n-html="legal.c1_li1"><strong>Fondateur & Directeur de la publication :</strong> Mathys Lacoque</li>
+              <li data-i18n-html="legal.c1_li2"><strong>Numéro de SIRET :</strong> <span class="mono">10653697200016</span></li>
+              <li data-i18n-html="legal.c1_li3"><strong>Activité :</strong> Développement, conception et réalisation de jeux vidéo</li>
+              <li data-i18n-html="legal.c1_li4"><strong>Contact :</strong> Via le <a href="index.html#contact" class="inline-link">formulaire de contact officiel</a> du site</li>
             </ul>
           </div>
         </section>
@@ -92,17 +92,17 @@
         <section class="legal-card" id="developpement">
           <div class="legal-card__header">
             <div>
-              <span class="legal-card__step">02 // CONCEPTION & DÉVELOPPEMENT WEB</span>
+              <span class="legal-card__step" data-i18n="legal.c2_step">02 // CONCEPTION & DÉVELOPPEMENT WEB</span>
               <h2 class="legal-card__title">Tyrolium</h2>
             </div>
           </div>
           <div class="legal-card__body">
-            <p>
+            <p data-i18n-html="legal.c2_p">
               La conception graphique, l'intégration et le développement technique de ce site web ont été réalisés par <strong>Tyrolium</strong>.
             </p>
             <ul class="legal-list">
-              <li><strong>Développeur :</strong> Tyrolium</li>
-              <li><strong>Site officiel :</strong> <a href="https://tyrolium.fr" target="_blank" rel="noopener noreferrer" class="inline-link">https://tyrolium.fr</a></li>
+              <li data-i18n-html="legal.c2_li1"><strong>Développeur :</strong> Tyrolium</li>
+              <li data-i18n-html="legal.c2_li2"><strong>Site officiel :</strong> <a href="https://tyrolium.fr" target="_blank" rel="noopener noreferrer" class="inline-link">https://tyrolium.fr</a></li>
             </ul>
           </div>
         </section>
@@ -111,18 +111,18 @@
         <section class="legal-card" id="hebergement">
           <div class="legal-card__header">
             <div>
-              <span class="legal-card__step">03 // HÉBERGEMENT WEB</span>
-              <h2 class="legal-card__title">SolidServ (Filiale de Tyrolium)</h2>
+              <span class="legal-card__step" data-i18n="legal.c3_step">03 // HÉBERGEMENT WEB</span>
+              <h2 class="legal-card__title" data-i18n="legal.c3_title">SolidServ (Filiale de Tyrolium)</h2>
             </div>
           </div>
           <div class="legal-card__body">
-            <p>
+            <p data-i18n-html="legal.c3_p">
               Le site web de TimeClaw est hébergé par <strong>SolidServ</strong>, service d'hébergement et d'infrastructure serveur, filiale du groupe <strong>Tyrolium</strong>.
             </p>
             <ul class="legal-list">
-              <li><strong>Hébergeur :</strong> SolidServ (filiale de <a href="https://tyrolium.fr" target="_blank" rel="noopener noreferrer" class="inline-link">Tyrolium</a>)</li>
-              <li><strong>Site officiel de l'hébergeur :</strong> <a href="https://solidserv.fr" target="_blank" rel="noopener noreferrer" class="inline-link">https://solidserv.fr</a></li>
-              <li><strong>Maison-mère :</strong> <a href="https://tyrolium.fr" target="_blank" rel="noopener noreferrer" class="inline-link">https://tyrolium.fr</a></li>
+              <li data-i18n-html="legal.c3_li1"><strong>Hébergeur :</strong> SolidServ (filiale de <a href="https://tyrolium.fr" target="_blank" rel="noopener noreferrer" class="inline-link">Tyrolium</a>)</li>
+              <li data-i18n-html="legal.c3_li2"><strong>Site officiel de l'hébergeur :</strong> <a href="https://solidserv.fr" target="_blank" rel="noopener noreferrer" class="inline-link">https://solidserv.fr</a></li>
+              <li data-i18n-html="legal.c3_li3"><strong>Maison-mère :</strong> <a href="https://tyrolium.fr" target="_blank" rel="noopener noreferrer" class="inline-link">https://tyrolium.fr</a></li>
             </ul>
           </div>
         </section>
@@ -131,19 +131,19 @@
         <section class="legal-card" id="partenaires">
           <div class="legal-card__header">
             <div>
-              <span class="legal-card__step">04 // PROJETS & COLLABORATIONS</span>
-              <h2 class="legal-card__title">Propriété des Jeux</h2>
+              <span class="legal-card__step" data-i18n="legal.c4_step">04 // PROJETS & COLLABORATIONS</span>
+              <h2 class="legal-card__title" data-i18n="legal.c4_title">Propriété des Jeux</h2>
             </div>
           </div>
           <div class="legal-card__body">
-            <p>
+            <p data-i18n="legal.c4_p">
               Dans le cadre de ses activités, TimeClaw présente ses créations propres ainsi que les projets sur lesquels il intervient en tant que studio collaborateur :
             </p>
             <ul class="legal-list">
-              <li>
+              <li data-i18n-html="legal.c4_li1">
                 <strong>RhodoTales :</strong> Projet de jeu vidéo appartenant au studio <strong>TyroCiel</strong> (filiale de <a href="https://tyrolium.fr" target="_blank" rel="noopener noreferrer" class="inline-link">Tyrolium</a>). TimeClaw (Mathys Lacoque) y intervient en qualité de collaborateur officiel pour le développement et la réalisation. Site officiel : <a href="https://tyrociel.fr" target="_blank" rel="noopener noreferrer" class="inline-link">https://tyrociel.fr</a>.
               </li>
-              <li>
+              <li data-i18n-html="legal.c4_li2">
                 <strong>Rock With Zombies :</strong> Projet de jeu vidéo développé et réalisé par TimeClaw (Mathys Lacoque).
               </li>
             </ul>
@@ -154,15 +154,15 @@
         <section class="legal-card" id="propriete">
           <div class="legal-card__header">
             <div>
-              <span class="legal-card__step">05 // DROITS D'AUTEUR</span>
-              <h2 class="legal-card__title">Propriété Intellectuelle</h2>
+              <span class="legal-card__step" data-i18n="legal.c5_step">05 // DROITS D'AUTEUR</span>
+              <h2 class="legal-card__title" data-i18n="legal.c5_title">Propriété Intellectuelle</h2>
             </div>
           </div>
           <div class="legal-card__body">
-            <p>
+            <p data-i18n-html="legal.c5_p1">
               L'ensemble des éléments présents sur ce site (textes, identité visuelle, logo TimeClaw, photographies, mises en page) est protégé par le droit de la propriété intellectuelle. Les marques, logos et visuels relatifs à <strong>Tyrolium</strong>, <strong>TyroCiel</strong>, <strong>RhodoTales</strong> et <strong>SolidServ</strong> demeurent la propriété exclusive de leurs détenteurs respectifs.
             </p>
-            <p>
+            <p data-i18n="legal.c5_p2">
               Toute reproduction, représentation, modification ou adaptation totale ou partielle de ce site ou de son contenu sans autorisation écrite préalable est strictement interdite.
             </p>
           </div>
@@ -172,15 +172,15 @@
         <section class="legal-card" id="donnees">
           <div class="legal-card__header">
             <div>
-              <span class="legal-card__step">06 // RGPD & VIE PRIVÉE</span>
-              <h2 class="legal-card__title">Protection des Données Personnelles</h2>
+              <span class="legal-card__step" data-i18n="legal.c6_step">06 // RGPD & VIE PRIVÉE</span>
+              <h2 class="legal-card__title" data-i18n="legal.c6_title">Protection des Données Personnelles</h2>
             </div>
           </div>
           <div class="legal-card__body">
-            <p>
+            <p data-i18n-html="legal.c6_p1">
               Ce site statique n'utilise aucun cookie publicitaire ou traceur intrusif. Les seules informations collectées sont celles que vous transmettez volontairement via le formulaire de contact (nom, adresse e-mail, sujet et message), géré de manière sécurisée via le service <em>Formspree</em>.
             </p>
-            <p>
+            <p data-i18n-html="legal.c6_p2">
               Ces données sont utilisées exclusivement par <strong>Mathys Lacoque (TimeClaw)</strong> afin de répondre à vos demandes et ne sont jamais revendues ni cédées à des tiers. Conformément au RGPD, vous disposez d'un droit d'accès, de rectification et de suppression de vos données en nous contactant directement via le formulaire du site.
             </p>
           </div>
@@ -188,7 +188,7 @@
       </div>
 
       <div class="legal-back">
-        <a href="index.html" class="btn btn--primary">← Retourner à l'accueil de TimeClaw</a>
+        <a href="index.html" class="btn btn--primary" data-i18n="legal.btn_back">← Retourner à l'accueil de TimeClaw</a>
       </div>
     </div>
   </main>
@@ -200,16 +200,25 @@
         <p class="footer__copy">
           © <span id="current-year">2026</span> <strong>TimeClaw</strong> (Mathys Lacoque) - SIRET : 10653697200016.
         </p>
+
         <div class="footer__socials footer__socials--inline" aria-label="Réseaux sociaux TimeClaw">
-          <a href="https://www.tiktok.com/" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="TikTok TimeClaw" title="TikTok">
+          <a href="https://tiktok.com/@timeclawstudio" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="TikTok TimeClaw" title="TikTok">
             <i class="ri-tiktok-fill" aria-hidden="true"></i>
           </a>
-          <a href="https://x.com/" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="X (Twitter) TimeClaw" title="X (Twitter)">
+          <a href="https://x.com/TimeClawStudio" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="X (Twitter) TimeClaw" title="X (Twitter)">
             <i class="ri-twitter-x-line" aria-hidden="true"></i>
           </a>
         </div>
-        <p class="footer__credits">
-          Développé par <a href="https://tyrolium.fr" target="_blank" rel="noopener noreferrer">Tyrolium</a> • Hébergé par <a href="https://solidserv.fr" target="_blank" rel="noopener noreferrer">SolidServ</a>
+
+        <div class="lang-switch" role="group" aria-label="Choix de la langue / Language selector">
+          <i class="ri-translate-2" aria-hidden="true"></i>
+          <button type="button" class="lang-switch__btn is-active" data-lang-switch="fr">FR</button>
+          <span class="lang-switch__sep" aria-hidden="true">/</span>
+          <button type="button" class="lang-switch__btn" data-lang-switch="en">EN</button>
+        </div>
+
+        <p class="footer__credits" data-i18n-html="footer.credits">
+          Site développé par <a href="https://tyrolium.fr" target="_blank" rel="noopener noreferrer">Tyrolium</a> • Hébergé par <a href="https://solidserv.fr" target="_blank" rel="noopener noreferrer">SolidServ</a>
         </p>
       </div>
     </div>

@@ -1437,6 +1437,51 @@ ul {
   text-decoration: underline;
 }
 
+.lang-switch {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 0.3rem 0.65rem;
+  background: var(--bg-card-solid);
+  border: 1px solid var(--border-strong);
+  border-radius: 999px;
+  font-family: var(--font-mono);
+  font-size: 0.78rem;
+  color: var(--text-muted);
+}
+
+.lang-switch i {
+  font-size: 0.95rem;
+  color: var(--purple-base);
+  margin-right: 0.15rem;
+}
+
+.lang-switch__btn {
+  background: transparent;
+  border: none;
+  font-family: var(--font-mono);
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: var(--text-muted);
+  cursor: pointer;
+  padding: 0.18rem 0.45rem;
+  border-radius: 999px;
+  transition: background 0.2s ease, color 0.2s ease;
+}
+
+.lang-switch__btn:hover {
+  color: var(--purple-base);
+}
+
+.lang-switch__btn.is-active {
+  background: var(--purple-base);
+  color: #ffffff;
+}
+
+.lang-switch__sep {
+  opacity: 0.4;
+}
+
 /* ═══════════ PAGE MENTIONS LÉGALES ═══════════ */
 .legal-page {
   padding: 4rem 0 5rem;
